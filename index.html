@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 3</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Pompiere&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title-h1">Shangri-la Frontier</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-mundo" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#protagonistas" class="nav-link">
+                            <i class="bi bi-person-arms-up me-1"></i>
+                            Protagonistas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#personagens" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Personagens
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-right-text me-1"></i>
+                            Informações
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-be-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-mundo">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="lib/images/slide/c1271d12a91fe1bff267b5ccb7d06c9536ab76ae169da5addfdef673adb63d0e.jpg" alt="slide1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="lib/images/slide/510563245655282.jpg" alt="slide1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="lib/images/slide/13d2dfca4d62f2dc82c6a672d1945a492e38d240a877640e0dd8a03fe7a5cb42.jpg" alt="slide1">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="lib/images/20240706-shangri-la-frontier-t2-poster-ovicio.webp" class="h-100 w-100 rounded" alt="protagonistas">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a obra</span></h2>
+                            <p>
+                                "Quando foi a última vez que joguei um jogo que não fosse um lixo?" Este é um mundo num futuro próximo em que os jogos que usam telas para 
+                                exibição são classificados como retrô. Qualquer coisa que não consiga acompanhar a tecnologia de VR de última geração é chamada de "jogo 
+                                porcaria", e vários jogos porcaria são lançados dia após dia. Aqueles que dedicam suas vidas a dominar esses jogos são chamados de "caçadores 
+                                de porcaria", e Rakuro Hizutome é um desses. O jogo que ele escolheu para enfrentar a seguir é Shangri-La Frontier, um "jogo de nível divino" 
+                                que tem um total de 30 milhões de jogadores. Amigos online... Um mundo expansivo... Encontros com rivais... Tudo isso está mudando Rakuro e o 
+                                destino de todos os outros jogadores! O melhor conto de aventura do mais forte do jogador de "jogos porcaria" está prestes a começar!
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o mundo</span></h3>
+                            <p>
+                                Nos tempos antigos, havia uma era conhecida simplesmente como "Divindade". Os divinos que viviam nela perdiam suas 
+                                vidas para garantir um futuro para seus descendentes.
+                                Com o passar do tempo, nós, seus descendentes, assumimos sua vontade e prosseguimos por esta nova terra, tecendo o 
+                                fluxo da grande e abundante vida ao nosso redor... Nesta era moderna, exploramos os milagres dos divinos por meio de suas relíquias, 
+                                deixadas em ruínas históricas. Você é um explorador que se levantou com o vento oriental, sofrendo inúmeras derrotas, mas seguindo 
+                                obstinadamente em frente... e algum dia, você pode desaparecer com o vento também.
+                                Que sentido há por trás da sua vida? Você apostará em uma única espada, ou espiará o abismo da feitiçaria - ou escolherá uma rota 
+                                completamente fora da batalha?
+                                Tudo está diante de você e tudo está dentro de você.
+                                Agora, dê um passo à frente e abra caminho para o desconhecido, o futuro e seu próprio potencial. Essa é a missão de todos os filhos 
+                                dos divinos nascidos nesta terra.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="protagonistas" class="pt-5 pb-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Personagens <span class="text-colored">principais</span> </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4 bg-dark">
+                        <!-- Contêiner da imagem -->
+                        <div class="image-container">
+                            <img src="lib/images/personagens/Sunraku_anime_design.webp" class="d-block w-100 rounded mb-2 object-fit-cover normal" alt="">
+                            <img src="lib/images/personagens/Rakuro_Hizutome_anime_design.webp" class="d-block w-100 rounded mb-2 object-fit-cover hover-image" alt="">
+                        </div>
+                        <!-- Contêiner do texto -->
+                        <div class="text">
+                            <h3 class="section-title text-colored fs-4">
+                                Sunrakun
+                            </h3>
+                            <p>Rakuro Hizutome, mais conhecido pelo seu nome de usuário Sunraku, é o principal protagonista da série. Apelidado de caçador de jogos lixo, 
+                                ele começa a jogar o jogo AAA SLF para uma mudança de ritmo, apenas para que ele se transforme em um jogo trash quando ele é deixado incapaz 
+                                de equipar armadura após ser amaldiçoado pelo monstro único Lycaon.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <!-- Segundo bloco (lado a lado) -->
+                    <div class="col-md-4">
+                        <!-- Contêiner da imagem -->
+                        <div class="image-container">
+                            <img src="lib/images/personagens/Psyger-0_anime_design.webp" class="d-block w-100 rounded mb-2 object-fit-cover normal" alt="">
+                            <img src="lib/images/personagens/Rei_Saiga_anime_design.webp" class="d-block w-100 rounded mb-2 object-fit-cover hover-image" alt="">
+                        </div>
+                        <!-- Contêiner do texto -->
+                        <div class="text">
+                            <h3 class="section-title text-colored fs-4">
+                                Psyger-0
+                            </h3>
+                            <p>Rei Saiga é colega de escola de Rakuro Hizutome e tem uma queda por ele, mas é tímida demais para confessar. Para entendê-lo melhor, ela 
+                                começou a jogar SLF e gradualmente se tornou uma de suas melhores jogadoras. Desde que Rakuro começou a jogar SLF, ela tenta se aproximar 
+                                dele, mas está enfrentando dificuldades devido à aparência intimidadora de sua personagem.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-1 mb-2"></div>
+                    <div class="col-md-4 bg-dark mt-4">
+                        <!-- Contêiner da imagem -->
+                        <div class="image-container">
+                            <img src="lib/images/personagens/Oicazzo_anime_design.webp" class="d-block w-100 rounded mb-2 object-fit-cover normal" alt="">
+                            <img src="lib/images/personagens/Kei_Uomi_anime_design.webp" class="d-block w-100 rounded mb-2 object-fit-cover hover-image" alt="">
+                        </div>
+                        <!-- Contêiner do texto -->
+                        <div class="text">
+                            <h3 class="section-title text-colored fs-4">
+                                Oikatzo
+                            </h3>
+                            <p>Kei Uomi é um personagem coadjuvante importante em Shangri-La Frontier . Um jogador profissional e amigo de jogo de Sunraku e Pencilgon, em SLF, 
+                                ele é conhecido como Oikatzo e um membro fundador de Wolfgang.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 mb-2"></div>
+                    <!-- Segundo bloco (lado a lado) -->
+                    <div class="col-md-4 bg-dark mt-4">
+                        <!-- Contêiner da imagem -->
+                        <div class="image-container">
+                            <img src="lib/images/personagens/Arthur_Pencilgon_anime_design.webp" class="d-block w-100 rounded mb-2 object-fit-cover normal" alt="">
+                            <img src="lib/images/personagens/Towa_Amane_anime_design.webp" class="d-block w-100 rounded mb-2 object-fit-cover hover-image" alt="">
+                        </div>
+                        <!-- Contêiner do texto -->
+                        <div class="text">
+                            <h3 class="section-title text-colored fs-4">
+                                Arthur Pencilgon
+                            </h3>
+                            <p>Towa Amane é uma personagem coadjuvante importante na série Shangri-La Frontier, sendo uma amiga de jogo de Sunraku e Oikatzo. Ela é uma modelo 
+                                popular do Japão com uma vida dupla secreta em SLF, o membro número 2 do clã matador de jogadores Ashura-Kai. Mais tarde, ela trai Ashura-Kai e 
+                                funda Wolfgang , sendo ela mesma nomeada líder do clã.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="personagens" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 ">
+                        Personagens <span class="text-colored">Relevantes </span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#monstros" class="fw-bold text-start nav-link text-colored active">Os Sete Colossos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#coelho-vorpal" class="fw-bold text-start nav-link text-colored">NPC - Coelhos Vorpal</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#secundarios" class="fw-bold text-start nav-link text-colored">Personagens Secundários</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jogos" class="fw-bold text-start nav-link text-colored">Jogos Apresentados</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="monstros">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Lycaon_the_Night_Slayer_anime_design.webp">
+                                        <h5 class="text-colored fw-bold">Licagono, o Matador da Noite</h5>
+                                        <p>Licagono, o Matador da Noite, é um grande lobo preto com algumas linhas brancas abaixo e acima dos olhos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Ctarnidd_Final_Form.webp">
+                                        <h5 class="text-colored fw-bold">Ctarnidd do Abismo</h5>
+                                        <p>Ctarnidd é um monstro marinho do tipo polvo que aparece nos oceanos e foi mencionado por NPCs que viajaram perto de seu ponto de 
+                                            desova para jogadores que nunca o viram. .</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Captura de tela 2025-03-05 184715.png">
+                                        <h5 class="text-colored fw-bold">Siegwurm, o Governante do Céu</h5>
+                                        <p>Siegwurm é um dragão dourado encontrado aleatoriamente. No entanto, os jogadores não podem alcançá-lo porque ele voa muito alto no 
+                                            céu. De acordo com o Professor , lutar contra Siegwurm no Santuário Magnânimo é possível.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Wezaemon_anime_design.webp">
+                                        <h5 class="text-colored fw-bold">Wezaemon, o Guarda do Túmulo</h5>
+                                        <p>Wezaemon, o Guarda do Túmulo é um mostro morto vivo/monstro maquina que jurou guardar para sempre o túmulo de sua falecida amante, 
+                                            Setsuna Amatsuki. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/personagens/ix22mccvasje1.webp">
+                                        <h5 class="text-colored fw-bold">A Orquestra do Eco da Perdição</h5>
+                                        <p>A existência de Orchestra foi descoberta pela primeira vez em um livro por um jogador que invadiu a Biblioteca Real de Ainverth, o 
+                                            reino que governa toda essa região. De acordo com as informações, Orchestra pode supostamente controlar tsunamis, se cobrir de fogo 
+                                            e invocar raios.</p>
+                                    </div>
+                                    
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/personagens/ix22mccvasje1.webp">
+                                        <h5 class="text-colored fw-bold">Goldunine (não confirmado)</h5>
+                                        <p>Nada se sabe sobre este monstro, nem localização, formato ou algo parecido, devido informações extraoficial talvez ele se chame 
+                                            Goldunine</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/personagens/ix22mccvasje1.webp">
+                                        <h5 class="text-colored fw-bold">Vysach (não confirmado)</h5>
+                                        <p>Nada se sabe sobre este monstro, nem localização, formato ou algo parecido, devido informações extraoficial talvez ele se chame 
+                                            Vysache</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="coelho-vorpal">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Emul_anime_design.webp">
+                                        <h5 class="text-colored fw-bold">Emul</h5>
+                                        <p>Emul é uma NPC Vorpal Bunny em SLF que procurou Sunraku depois que ele foi amaldiçoado por Lycagon, se tornando ponta chave para 
+                                            ativação de um cenário único.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Vysache_anime_design.webp">
+                                        <h5 class="text-colored fw-bold">Vysache</h5>
+                                        <p>Vysache é o pai de Emul e seus 25 irmãos, bem como o antigo rei de Rabituza , o reino dos Vorpal Bunnies.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Bilac_Anime.webp">
+                                        <h5 class="text-colored fw-bold">Bilac</h5>
+                                        <p>Bilac é uma ferreira habilidosa a quem Sunraku confia a criação de equipamentos para ele, enquanto, por sua vez, a ajuda a crescer 
+                                            ainda mais em seu ofício.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Peatz_Anime.webp">
+                                        <h5 class="text-colored fw-bold">Peatz</h5>
+                                        <p>Peatz é o irmão mais novo do Emul, ele se disfarça de pessoa e os vende em "outras cidades" fora de Rabituza</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Elke_anime_design.webp">
+                                        <h5 class="text-colored fw-bold">Elke</h5>
+                                        <p>Elke (エルク, Eruku ) é a mais velha dos trigêmeos, irmã de Emul , a Jardineira de Habilidades e administra uma instalação no Palácio 
+                                            dos Coelhos .</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Ceecrue_anime_design.webp">
+                                        <h5 class="text-colored fw-bold">Ceecrue</h5>
+                                        <p>Ceecrue é um Mestre Espadachim, ele faz parceria com Akane Akitsu depois que ela é amaldiçoada pelo Siegwurm tornando-a elegível para 
+                                            o mesmo cenário único que Sunraku.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="secundarios">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Akane_Akitsu_anime_design.webp">
+                                        <h5 class="text-colored fw-bold">Akane Akitsu</h5>
+                                        <p>Akane Akitsu é apresentada como uma jogadora novata que Sunraku treinou em Berserk Online Passion, ela se reúne com ele em SLF após 
+                                            ser amaldiçoada pelo Colossus Siegwurm</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Rust_Shangri_la_frontier.webp">
+                                        <h5 class="text-colored fw-bold">Rust</h5>
+                                        <p>Rust é a jogadora número 1 em Nephilim Hollow, ela retorna a jogar SLF e apresenta Sunraku ao Cenário Único para o Colossus Ctarnidd 
+                                            do Abismo</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="./lib/images/personagens/Mold_Shangri_la_frontier.webp">
+                                        <h5 class="text-colored fw-bold">Mold</h5>
+                                        <p>Mold é amigo de jogo de Rust e operador em Nephilim Hollow, ajudando Sunraku e Rust no cenário unico.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/jogos/Shangri-La_Frontier_Anime.webp">
+                                        <h5 class="text-colored fw-bold">Shangri-La Frontier</h5>
+                                        <p>O princiaol jogo abordado no anime, SLF é um jogo de mundo aberto VRMMORPG cuja história principal envolve explorar um vasto mundo. 
+                                            Os jogadores assumem classes variadas, completando cenários de história.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/jogos/Berserk_Online_Passion_anime.webp">
+                                        <h5 class="text-colored fw-bold">Berserk Online Passion</h5>
+                                        <p>BOP é um jogo lixo de luta em VR, Por causa de suas inúmeras falhas, ele se tornou conhecido como BOSPA por sua base de jogadores cada 
+                                            vez menor, Sunraku adora este jogo e utiliza de diversos bugs para lutar</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/jogos/Nephilim_Hollow_anime.webp">
+                                        <h5 class="text-colored fw-bold">Nephilim Hollow</h5>
+                                        <p>NH para abreviar, é um jogo de ação de robôs dentro da série Shangri-la Frontier. Devido ao seu alto nível de habilidade, ele mantém 
+                                            uma base de jogadores pequena, mas hardcore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/jogos/Unite_Round_Anime.webp">
+                                        <h5 class="text-colored fw-bold">Unite Rounds</h5>
+                                        <p>Unite Rounds é um jogo de mundo aberto, onde sunraku conheceu Towa Amane e Kei Uomi. No entanto, o servidor caiu na ilegalidade devido 
+                                            à falta de restrições nas ações do Jogador.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/jogos/Faeria_Chronicle_Online_anime.webp">
+                                        <h5 class="text-colored fw-bold">Faeria Chronicle Online</h5>
+                                        <p>Faeria Chronicle Online ~A Oração da Princesa Fada também conhecido como Failia, é um jogo de lixo VR RPG, onde sunraku passou meses 
+                                            para zerar por causa da protagonista e de diversos bugs. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./lib/images/jogos/Galaxia_Heroes_Chaos_anime.jpg">
+                                        <h5 class="text-colored fw-bold">Galaxia Heroes: Chaos</h5>
+                                        <p>GH:C , para abreviar, é um jogo de luta VR da série Shangri-La Frontier. Jogo usado para o arco da Competição Global de Jogos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Mais <span class="text-colored">Informações</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-1 text-colored"> Onde Acompanhar</h3>
+                            <ul class="social-links">
+                                <li class="fs-2">
+                                    <a href="https://www.crunchyroll.com/pt-br/series/G79H23Z8P/shangri-la-frontier">
+                                        <i class="bi bi-tv text-colored"></i> 
+                                    </a>
+                                </li>
+                                <li class="fs-2 ms-5 me-1">
+                                    <a href="https://slimeread.com/manga/11655,shangri-la-frontier">
+                                        <i class="bi bi-book text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">   
+                            <h3 class="section-title fs-1 text-colored">
+                                <i class="bi bi-box-seam"></i>
+                                Onde Comprar
+                            </h3>
+                        <p>
+                            <a href="https://panini.com.br/catalogsearch/result/?q=Shangri-la+Frontier" class="text-colored fs-2">Panini Store</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

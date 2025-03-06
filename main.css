@@ -1,0 +1,172 @@
+body{
+
+    font-family: "Pompiere", serif;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.navbar{
+    background-color: #282546;
+}
+.carousel-inner img {
+    width: 100%; /* Garante que a imagem se ajuste ao container */
+    height: 800px; /* Defina uma altura fixa */
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #e7aad0;
+    color: #94688a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    #8bc6dd;
+}
+
+.navbar-brand{
+    font-family: Pacifico, cursive;
+}
+.navbar-toggler{
+        background-color: #9f83c2;
+}
+.section-title{
+    font-family: "Megrim", serif;
+    font-style: normal;
+    color: #8bc6dd;
+    font-size: 32px;
+}
+
+#sobre-o-mundo, #personagens{
+    background-color: #9f83c2;
+}
+.text-colored{
+    color: #dd2727;
+}
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #e7aad0;
+    color: #94688a;
+}
+.nav-cardapio .nav-link:hover{
+    color: #e15f41;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+
+}
+.social-links li a {
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+.section-title-h1{
+    font-family: "Megrim", serif;
+    font-size: 32px;
+    color: #dd2727;
+}
+.image-container {
+    position: relative;
+    display: flex; /* Garante que o container utilize flexbox */
+    justify-content: center; /* Centraliza a imagem */
+    align-items: center; /* Alinha verticalmente */
+    flex-direction: column; /* Organiza a imagem e o texto verticalmente */
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px; /* Espaçamento entre as imagens e o texto */
+}
+
+.image-container img {
+    width: 100%; /* Ajusta a largura para ocupar todo o espaço disponível */
+    max-width: 350px; /* Ajuste o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção correta */
+    position: absolute; /* Faz com que as imagens fiquem sobrepostas */
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out; /* Transição suave */
+}
+
+.normal {
+    z-index: 1; /* Imagem normal por baixo */
+}
+
+.hover-image {
+    opacity: 0; /* Começa invisível */
+    z-index: 2; /* Fica sobre a imagem normal */
+}
+
+.image-container:hover .hover-image {
+    opacity: 1; /* Torna a imagem de hover visível */
+}
+
+.image-container:hover .normal {
+    opacity: 0; /* Esconde a imagem normal quando em hover */
+}
+
+.text {
+    margin-top: 550px; /* Espaçamento entre a imagem e o texto  necesario alteração para ficar responsivo*/
+}
+
+/* Adicionando borda arredondada e sombra nas colunas */
+.col-md-6.bg-dark {
+    border-radius: 15px; /* Borda arredondada */
+    overflow: hidden; /* Garante que as imagens não saiam dos cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra sutil para profundidade */
+    background-color: #343a40; /* Cor de fundo preto suave */
+    border-radius: 10px; /* Deixa a borda arredondada para um visual mais bonito */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona um leve efeito de sombra */
+}
+
+/* Melhorando a aparência das imagens para bordas arredondadas */
+.image-container img {
+    border-radius: 10px; /* Borda arredondada nas imagens */
+}
+
+/* Adicionando um efeito suave nas imagens quando estão em hover */
+.image-container img:hover {
+    transition: transform 0; /* Transição suave */
+}
+
+/* Melhorando o estilo do texto */
+.text {
+    color: white; /* Deixando o texto branco para contraste com o fundo escuro */
+    padding: 20px; /* Espaçamento interno para o texto */
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo translúcido para o texto */
+    border-radius: 0 0 15px 15px; /* Arredondando apenas a parte inferior do texto */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Ajustando a cor do título e do texto */
+.text h3 {
+    font-size: 1.8rem; /* Tamanho do título */
+    font-weight: bold; /* Deixa o título mais forte */
+    color: #dd2727; /* Cor dourada para o título */
+}
+
+.text p {
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte do parágrafo */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    color: #f1f1f1; /* Cor do parágrafo */
+}
+.col-md-3 img{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px; /* Espaçamento entre as imagens e o texto */
+}
+#coelho-vorpal .col-md-4 img {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px; /* Espaçamento entre a imagem e o texto */
+}
+#secundarios .col-md-4 img {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px; /* Espaçamento entre a imagem e o texto */
+
+}
+
