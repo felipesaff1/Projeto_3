@@ -1,7 +1,7 @@
 # Projeto Shangri-La Frontier
 
 Este projeto é um site dedicado à obra Shangri-La Frontier, apresentando informações sobre a história, personagens e mundo da franquia.
-![Demonstração] (https://imgur.com/rMWCvAB)
+
 ## 📌 Tecnologias Utilizadas
 
 HTML5
