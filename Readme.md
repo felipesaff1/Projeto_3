@@ -44,8 +44,8 @@ Abra o arquivo index.html em seu navegador.
 Felipe Andrade
 
 ## 📬 Contato
-📧 Email: seuemail@email.com
-💼 LinkedIn: linkedin.com/in/seuperfil
+📧 Email: felipe_saff1@hotmail.com
+💼 LinkedIn: [linkedin.com/in/seuperfil](https://www.linkedin.com/in/felipe-andrade-ab0783b9/)
 
 ### Feito com ❤️ para fãs de Shangri-La Frontier! 🎮📖
 
