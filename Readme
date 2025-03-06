@@ -1,8 +1,8 @@
-Projeto Shangri-La Frontier
+# Projeto Shangri-La Frontier
 
 Este projeto é um site dedicado à obra Shangri-La Frontier, apresentando informações sobre a história, personagens e mundo da franquia.
 
-📌 Tecnologias Utilizadas
+## 📌 Tecnologias Utilizadas
 
 HTML5
 
@@ -14,7 +14,7 @@ Bootstrap Icons
 
 Google Fonts
 
-📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 /
 ├── index.html  # Página principal
@@ -27,11 +27,11 @@ Google Fonts
 │   │   ├── personagens/  # Imagens dos personagens
 │   │   ├── jogos/  # Imagens dos jogos mencionados
 
-📸 Funcionalidades
+## 📸 Funcionalidades
 
-✅ Navegação com menu fixo ✅ Carrossel de imagens ✅ Seções sobre a obra, personagens e mundo ✅ Formulário de contato ✅ Links para assistir e comprar
+### ✅ Navegação com menu fixo ✅ Carrossel de imagens ✅ Seções sobre a obra, personagens e mundo ✅ Formulário de contato ✅ Links para assistir e comprar
 
-📖 Como Visualizar o Projeto
+### 📖 Como Visualizar o Projeto
 
 Faça o download ou clone este repositório:
 
@@ -39,14 +39,14 @@ git clone <URL_DO_REPOSITORIO>
 
 Abra o arquivo index.html em seu navegador.
 
-👤 Autor do site
+## 👤 Autor do site
 
 Felipe Andrade
 
-📬 Contato
+## 📬 Contato
+📧 Email: seuemail@email.com
+💼 LinkedIn: linkedin.com/in/seuperfil
 
-Caso tenha dúvidas ou sugestões, entre em contato através do formulário na seção "Informações" do site.
-
-Feito com ❤️ para fãs de Shangri-La Frontier! 🎮📖
+### Feito com ❤️ para fãs de Shangri-La Frontier! 🎮📖
 
 README gerado com o auxílio do ChatGPT.
